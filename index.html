@@ -51,6 +51,8 @@
                 <li><a href="#calendar">Calendar</a></li>
                 <li><a href="#leadership">Leadership</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <!-- NEW: permanent nav link for students -->
+                <li><a href="#student-join" class="btn-primary">Students – Join Us</a></li>
             </ul>
             <div class="hamburger">
                 <span></span><span></span><span></span>
@@ -84,6 +86,21 @@
         </div>
         <div class="scroll-indicator">
             <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- NEW: Student recruitment section -->
+    <section id="student-join" class="student-join">
+        <div class="container">
+            <div class="join-inner" data-aos="fade-up">
+                <h2>Students – become part of the music.</h2>
+                <p>Whether you play violin, guitar, flute or sing, Crescendo gives you real-world performance experience while bringing joy to senior communities. No auditions. Just passion.</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6Xfv5qv4L3oTVNBPDVMf8IW5ibM_KeeHw91f5zVq6A-N52Q/viewform" target="_blank" class="btn-cta-primary">Apply in 60 seconds</a>
+                <blockquote>
+                    “Playing for Crescendo lets me share the music I love and actually see people smile.”
+                    <cite>– Ronit, 9th grade</cite>
+                </blockquote>
+            </div>
         </div>
     </section>
 
@@ -133,7 +150,6 @@
                     </div>
                     <div class="performance-images">
                         <img src="images/9-6-concert-1.jpg" alt="September 6 Concert" class="perf-img">
-                        <img src="images/9-6-concert-2.jpg" alt="September 6 Concert" class="perf-img">
                     </div>
                 </div>
                 
@@ -148,7 +164,6 @@
                     </div>
                     <div class="performance-images">
                         <img src="images/10-5-concert-1.jpg" alt="October 5 Concert" class="perf-img">
-                        <img src="images/10-5-concert-2.jpg" alt="October 5 Concert" class="perf-img">
                     </div>
                 </div>
                 
@@ -172,29 +187,25 @@
                         <div class="detail-item"><i class="fas fa-users"></i> 4 Musicians</div>
                         <div class="detail-item"><i class="fas fa-music"></i> 4 Songs Performed</div>
                     </div>
-                    <div class="performance-images">
-                        <img src="images/10-26-concert-1.jpg" alt="October 26 Concert" class="perf-img">
-                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Videos Section -->
+    <!-- Videos Section (GitHub-friendly) -->
     <section id="videos" class="videos">
         <div class="container">
             <h2 class="section-title" data-aos="fade-up">Performance Videos</h2>
             <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Experience our music through recorded performances</p>
             
             <div class="video-grid">
+                <!-- NEW: lightweight placeholders instead of heavy mp4 -->
                 <div class="video-card" data-aos="fade-up" data-aos-delay="200">
                     <h3>September 6, 2025 Concert</h3>
                     <p>Sunrise of Johns Creek - 7 Musicians</p>
                     <div class="video-container">
-                        <video controls class="performance-video">
-                            <source src="videos/PXL_20250906_195854776.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
+                        <iframe src="https://youtu.be/NfDEAJPcxFo" 
+                                title="September 6 Concert" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <p class="video-description">Our debut performance featuring beautiful classical pieces that connected generations through music.</p>
                 </div>
@@ -203,10 +214,8 @@
                     <h3>October 5, 2025 Concert</h3>
                     <p>The Oaks at Shiloh Point - 6 Musicians, 8 Songs</p>
                     <div class="video-container">
-                        <video controls class="performance-video">
-                            <source src="videos/IMG_4737.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
+                        <iframe src="https://youtu.be/nBsH4xBeG0M" 
+                                title="October 5 Concert" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <p class="video-description">An autumn concert featuring seasonal favorites that brought joy to residents and families alike.</p>
                 </div>
@@ -447,6 +456,10 @@
                     <div class="social-links">
                         <a href="mailto:crescendoinitiativesuwanee@gmail.com"><i class="fas fa-envelope"></i></a>
                         <a href="https://www.instagram.com/tcisuwanee/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <!-- NEW: second student CTA -->
+                    <div class="student-cta-footer">
+                        <p>Student musician? <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6Xfv5qv4L3oTVNBPDVMf8IW5ibM_KeeHw91f5zVq6A-N52Q/viewform" target="_blank">Join us here.</a></p>
                     </div>
                 </div>
             </div>
